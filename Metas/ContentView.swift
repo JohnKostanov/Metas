@@ -9,12 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    var firstGoal = FirstGoal()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            FirstGoal()
+            if firstGoal.isComplited {
+                Text("Цель выполнена")
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
         ContentView()
     }

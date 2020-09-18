@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5241601A2514FFEA004A6FBE /* GoalsEveryDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524160192514FFEA004A6FBE /* GoalsEveryDays.swift */; };
 		52BF806C24DF043D002EE40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF806B24DF043D002EE40B /* AppDelegate.swift */; };
 		52BF806E24DF043D002EE40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF806D24DF043D002EE40B /* SceneDelegate.swift */; };
 		52BF807124DF043D002EE40B /* Metas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BF806F24DF043D002EE40B /* Metas.xcdatamodeld */; };
-		52BF807324DF043D002EE40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF807224DF043D002EE40B /* ContentView.swift */; };
 		52BF807524DF043F002EE40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BF807424DF043F002EE40B /* Assets.xcassets */; };
 		52BF807824DF043F002EE40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BF807724DF043F002EE40B /* Preview Assets.xcassets */; };
 		52BF807B24DF043F002EE40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF807924DF043F002EE40B /* LaunchScreen.storyboard */; };
+		52BF808924DF14E1002EE40B /* FirstGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF808824DF14E1002EE40B /* FirstGoal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524160192514FFEA004A6FBE /* GoalsEveryDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsEveryDays.swift; sourceTree = "<group>"; };
 		52BF806824DF043D002EE40B /* Metas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF806B24DF043D002EE40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BF806D24DF043D002EE40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52BF807024DF043D002EE40B /* Metas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Metas.xcdatamodel; sourceTree = "<group>"; };
-		52BF807224DF043D002EE40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52BF807424DF043F002EE40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BF807724DF043F002EE40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52BF807A24DF043F002EE40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BF807C24DF043F002EE40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BF808824DF14E1002EE40B /* FirstGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGoal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				52BF806B24DF043D002EE40B /* AppDelegate.swift */,
 				52BF806D24DF043D002EE40B /* SceneDelegate.swift */,
-				52BF807224DF043D002EE40B /* ContentView.swift */,
+				52BF808824DF14E1002EE40B /* FirstGoal.swift */,
+				524160192514FFEA004A6FBE /* GoalsEveryDays.swift */,
 				52BF807424DF043F002EE40B /* Assets.xcassets */,
 				52BF807924DF043F002EE40B /* LaunchScreen.storyboard */,
 				52BF807C24DF043F002EE40B /* Info.plist */,
@@ -149,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BF808924DF14E1002EE40B /* FirstGoal.swift in Sources */,
 				52BF806C24DF043D002EE40B /* AppDelegate.swift in Sources */,
 				52BF806E24DF043D002EE40B /* SceneDelegate.swift in Sources */,
-				52BF807324DF043D002EE40B /* ContentView.swift in Sources */,
+				5241601A2514FFEA004A6FBE /* GoalsEveryDays.swift in Sources */,
 				52BF807124DF043D002EE40B /* Metas.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
